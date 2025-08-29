@@ -1,24 +1,34 @@
-.profile{
+.profile {
     display: flex;
-    margin: 50px 20% 30px;
     flex-direction: row;
+    margin: 50px 20% 30px;
     gap: 50px;
 }
-.profile-left{
+
+.profile-left {
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
     align-items: center;
     gap: 20px;
 }
-.profile-pic-wrapper{
+
+.profile-pic-wrapper {
     position: relative;
 }
-.profile-pic{
-    height: 300px;
-    width: 300px;
-    cursor: pointer;
+
+.profile-pic {
+    height: 250px;
+    width: 250px;
+    outline: 5px solid #2BB273;
 }
-.costume{
+
+.profile-pic:hover {
+    cursor: pointer;
+    outline: 5px solid white;
+}
+
+.costume {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,36 +36,46 @@
     z-index: 1;
     pointer-events: none;
 }
-.link-container{
+
+.link-container {
     display: flex;
-    flex-direction: row;
     gap: 30px;
 }
-.link-container img{
+
+.link-container img {
     height: 30px;
     width: 30px;
     cursor: pointer;
     opacity: .8;
 }
-.link-container img:hover{
+
+.link-container img:hover {
     opacity: 1;
 }
-.profile-text{
+
+.profile-right {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border-left: #2BB273 solid 5px;
-    padding-left: 50px;
 }
-.profile-text h1{
+
+.profile-right h1 {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 900;
 }
-.profile-text p{
+
+.profile-right p {
     font-size: 18px;
 }
-@media(max-width:768px){
-    .profile{
+
+.profile-right a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6d24a5
+}
+
+@media(max-width:900px) {
+    .profile {
         flex-direction: column;
     }
 }

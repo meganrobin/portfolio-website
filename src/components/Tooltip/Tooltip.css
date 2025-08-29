@@ -1,8 +1,9 @@
-.tooltip-container{
+.tooltip-container {
     position: relative;
     display: inline-block;
 }
-.tooltip{
+
+.tooltip {
     position: absolute;
     pointer-events: none;
     background-color: #E1C931;

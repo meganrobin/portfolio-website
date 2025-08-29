@@ -1,14 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
   /* border: red solid 1px; */
 }
-body{
+
+body {
   height: 100vh;
   background: #161513;
   color: white;
   font-family: 'TikTok Sans';
 }
-::selection{ 
+
+::selection {
   background: #E1C931;
 }

@@ -27,9 +27,9 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink></li>
         <li><AnchorLink className='anchor-link' offset={50} href='#projects'><p onClick={()=>setMenu("projects")}>Projects</p></AnchorLink></li>
         {/* <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></AnchorLink></li> */}
-        <li><AnchorLink className='anchor-link' offset={50} href='#extras'><p onClick={()=>setMenu("extras")}>Extras</p></AnchorLink></li>
+        {/* <li><AnchorLink className='anchor-link' offset={50} href='#extras'><p onClick={()=>setMenu("extras")}>Extras</p></AnchorLink></li> */}
       </ul>
-      <div className='nav-contact'>Contact Me</div>
+      {/* <div className='nav-contact'>Contact Me</div> */}
     </div>
   )
 }

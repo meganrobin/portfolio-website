@@ -44,7 +44,7 @@ const Profile = () => {
           I specialize in building modular systems that prioritize clear structure, fluid interactions, and exceptional user experiences.
         </p>
         <p>Currently, I'm a Full-Stack Software Engineer Intern at <a href='https://www.pulsepoint.org/' target='_blank'>PulsePoint</a>,
-          where I build mapping and data visualization apps that help public safety agencies get the infomation they need.
+          where I build mapping and data visualization apps that help public safety agencies get the information they need.
         </p>
         <p>
           When I'm not programming, you can find me crocheting, sewing,

@@ -9,23 +9,23 @@ import project6_thumbnail from '../assets/project6_thumbnail.png'
 const projects_data = [
     {
         p_no: 1,
-        p_name: "Darcie's Diner",
-        p_img: project1_thumbnail,
-        p_contribution: 'Solo Project (Programming, UI/UX Design, Art, Animation)',
-        p_description: "A spunky restaurant simulator with handcrafted pixel shaders and NPC pathfinding AI.",
-        p_tags: ["Godot 4", "Pathfinding AI", "Shaders"],
-        p_link_1_description: "Play Online: ",
-        p_link_1: "https://mogin.itch.io/darcies-diner"
-    },
-    {
-        p_no: 2,
         p_name: "Creature Catcher",
-        p_img: project2_thumbnail,
+        p_img: project1_thumbnail,
         p_contribution: 'Main Gameplay Programmer, Creature Placement System, Controller Design and Construction',
         p_description: "Location-based creature-catching game with a custom controller made with Adafruit sensors.",
         p_tags: ["Python", "Mu Editor", "Godot 4"],
         p_link_1_description: "Play Online: ",
         p_link_1: "https://mogin.itch.io/creature-catcher"
+    },
+    {
+        p_no: 2,
+        p_name: "Darcie's Diner",
+        p_img: project2_thumbnail,
+        p_contribution: 'Solo Project (Programming, UI/UX Design, Art, Animation)',
+        p_description: "A spunky restaurant simulator with handcrafted pixel shaders and NPC pathfinding AI.",
+        p_tags: ["Godot 4", "Pathfinding AI", "Shaders"],
+        p_link_1_description: "Play Online: ",
+        p_link_1: "https://mogin.itch.io/darcies-diner"
     },
     {
         p_no: 3,
@@ -62,7 +62,7 @@ const projects_data = [
         p_name: "Smile and Nod Improv Website",
         p_img: project6_thumbnail,
         p_contribution: 'Full-Stack Web Developer',
-        p_description: "A dynamic website for my improv comedy team.",
+        p_description: "A dynamic website for Cal Poly's improv comedy team.",
         p_tags: ["React.js", "HTML", "CSS", "Firebase"],
         p_link_1_description: "Website: ",
         p_link_1: "https://smileandnodimprov.com"

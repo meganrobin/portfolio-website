@@ -17,14 +17,16 @@ const Projects = () => {
               </div>
               <div className='project-text-container'>
                 <h2>{work.p_name}</h2>
-                <div>
-                  {work.p_tags.map((tag) => (
-                    <span>{tag}</span>
+                <div className='project-tags'>
+                  {work.p_tags.map((tag, i) => (
+                    <span key={i}>{tag}</span>
                   ))}
                 </div>
-                <p><i>Role:</i> {work.p_contribution}</p>
-                <p style={{ fontWeight: 'bold' }}>{work.p_description}</p>
-                <p><i>{work.p_link_1_description}</i><a href={work.p_link_1} target="_blank">{work.p_link_1}</a></p>
+                <div className='project-text-lower'>
+                  <p><b>{work.p_description}</b></p>
+                  <p><b>Role:</b> {work.p_contribution}</p>
+                  <p><b>{work.p_link_1_description}</b><a href={work.p_link_1} target="_blank">{work.p_link_1}</a></p>
+                </div>
               </div>
             </div>
           )

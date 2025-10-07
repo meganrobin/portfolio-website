@@ -40,11 +40,11 @@ const Profile = () => {
       <div className='profile-right'>
         <h1>Hi, I'm <span style={{ color: '#2BB273' }}>Megan Robinson</span>!</h1>
         <p>
-          I'm a Computer Science major at Cal Poly San Luis Obispo with 4+ years of experience developing elegant, high-performance software.
-          I specialize in building modular systems that prioritize clear structure, fluid interactions, and exceptional user experiences.
+          I'm a 3rd year Computer Science major at Cal Poly San Luis Obispo with 4+ years of experience developing elegant, high-performance software and immersive video games.
+          I specialize in building modular features that prioritize clear structure, fluid interactions, and exceptional user experiences.
         </p>
         <p>Currently, I'm a Full-Stack Software Engineer Intern at <a href='https://www.pulsepoint.org/' target='_blank'>PulsePoint</a>,
-          where I build mapping and data visualization apps that help public safety agencies get the information they need.
+          where I build mapping and data visualization applications with React, TypeScript, PHP, and AWS.
         </p>
         <p>
           When I'm not programming, you can find me crocheting, sewing,

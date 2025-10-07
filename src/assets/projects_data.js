@@ -12,7 +12,7 @@ const projects_data = [
         p_name: "Creature Catcher",
         p_img: project1_thumbnail,
         p_contribution: 'Main Gameplay Programmer, Creature Placement System, Controller Design and Construction',
-        p_description: "Location-based creature-catching game with a custom controller made with Adafruit sensors.",
+        p_description: "A GPS-powered, location-based creature-catching game with a custom Bluetooth controller.",
         p_tags: ["Python", "Mu Editor", "Godot 4"],
         p_link_1_description: "Play Online: ",
         p_link_1: "https://mogin.itch.io/creature-catcher"
@@ -62,7 +62,7 @@ const projects_data = [
         p_name: "Smile and Nod Improv Website",
         p_img: project6_thumbnail,
         p_contribution: 'Full-Stack Web Developer',
-        p_description: "A dynamic website for Cal Poly's improv comedy team.",
+        p_description: "A dynamic website for Cal Poly's improv comedy team, complete with an admin portal for easy edits.",
         p_tags: ["React.js", "HTML", "CSS", "Firebase"],
         p_link_1_description: "Website: ",
         p_link_1: "https://smileandnodimprov.com"

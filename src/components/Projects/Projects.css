@@ -18,7 +18,7 @@
 .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 35px;
 }
 
 .project {
@@ -48,16 +48,16 @@
 .project-text-container h2 {
     color: black;
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .project span {
     color: black;
     font-weight: 500;
-    background-color: rgba(43, 178, 115, .8);
+    background-color: rgba(43, 178, 115, .7);
     border: 2px solid #2BB273;
     border-radius: 10px;
-    padding: 1px 5px;
+    padding: 1.5px 5.5px;
 }
 
 .project-text-container p {
@@ -65,9 +65,15 @@
     font-weight: 500;
 }
 
-.project-text-container div {
+.project-tags {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project-text-lower {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 

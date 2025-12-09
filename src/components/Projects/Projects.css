@@ -57,9 +57,9 @@
 }
 
 .project span {
-    font-size: small;
+    font-size: .8rem;
     background-color: rgba(43, 178, 115, .7);
-    border: 1px solid #2BB273;
+    border: 2px solid #2BB273;
     border-radius: 10px;
     padding: 1px 5px;
 }

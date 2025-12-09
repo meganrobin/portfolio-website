@@ -12,12 +12,13 @@ const Projects = () => {
         {projects_data.map((work, index) => {
           return (
             <div className='project' key={index}
+              onClick={() => window.open(work.p_link_1, '_blank')}
               onMouseEnter={e => { e.currentTarget.querySelector('img').src = work.p_gif }}
               onMouseLeave={e => { e.currentTarget.querySelector('img').src = work.p_img }}
             >
               <div className='project-img-container'>
                 {/* TO DO: Add alt text */}
-                <img src={work.p_img} alt=''/>
+                <img src={work.p_img} alt='' />
               </div>
               <div className='project-text-container'>
                 <h2>{work.p_name}</h2>

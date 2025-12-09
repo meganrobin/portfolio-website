@@ -19,8 +19,8 @@ const projects_data = [
         p_img: project1_thumbnail,
         p_gif: project1_gif,
         p_contribution: 'Main Gameplay Programmer, Creature Placement System, Controller Design and Construction',
-        p_description: "A GPS-powered, location-based creature-catching game with a custom Bluetooth controller.",
-        p_tags: ["Python", "Mu Editor", "Godot 4"],
+        p_description: "A GPS-powered, location-based creature-catching game with a custom Bluetooth controller. Online version available to play in browser.",
+        p_tags: ["Python", "Godot 4", "Mu Editor", "Bluetooth", "GPS"],
         p_link_1_description: "Play Online: ",
         p_link_1: "https://mogin.itch.io/creature-catcher"
     },
@@ -30,8 +30,8 @@ const projects_data = [
         p_img: project2_thumbnail,
         p_gif: project2_gif,
         p_contribution: 'Solo Project (Programming, UI/UX Design, Art, Animation)',
-        p_description: "A spunky restaurant simulator with handcrafted pixel shaders and NPC pathfinding AI.",
-        p_tags: ["Godot 4", "Pathfinding AI", "Shaders"],
+        p_description: "A spunky restaurant simulator with custom pixel shaders and NPC pathfinding AI.",
+        p_tags: ["Godot 4", "Pathfinding AI", "Shaders", "Procedural Animation"],
         p_link_1_description: "Play Online: ",
         p_link_1: "https://mogin.itch.io/darcies-diner"
     },

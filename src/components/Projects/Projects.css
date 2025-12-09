@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 45px;
     margin: 30px 5%;
 }
 
@@ -16,53 +16,56 @@
 }
 
 .projects-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
 
 .project {
     display: flex;
-    background-color: white;
-    cursor: default;
+    flex-direction: column;
+    max-width: 450px;
+    background-color: #25282B;
+    border: 2px solid #3F3F40;
+    cursor: pointer;
+    transition: transform ease 0.3s;
+}
+
+.project:hover {
+    transform: translate(0, -10px);
 }
 
 .project-text-container {
     display: flex;
     flex-direction: column;
-    width: 340px;
-    padding: 15px 20px 15px 10px;
+    padding: 0% 5% 4% 5%;
     gap: 10px;
 }
 
 .project-img-container {
-    padding: 10px;
+    padding: 2%;
 }
 
 .project img {
-    width: 390px;
-    height: 260px;
-    border: solid 5px black;
+    width: 100%;
 }
 
 .project-text-container h2 {
-    color: black;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .project span {
-    color: black;
-    font-weight: 500;
+    font-size: small;
     background-color: rgba(43, 178, 115, .7);
-    border: 2px solid #2BB273;
+    border: 1px solid #2BB273;
     border-radius: 10px;
-    padding: 1.5px 5.5px;
+    padding: 1px 5px;
 }
 
 .project-text-container p {
-    color: black;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .project-tags {
@@ -78,29 +81,8 @@
 }
 
 .project-text-container a {
-    color: #9504d3;
+    color: #E1C931;
 }
-
-.projects-showmore {
-    display: flex;
-    gap: 15px;
-    border-radius: 50px;
-    border: 2px solid white;
-    padding: 30px 60px;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 80px;
-    transition: 0.6s;
-    cursor: pointer;
-}
-
-.projects-showmore:hover {
-    gap: 30px;
-    transition: 0.6s;
-}
-
-@media(max-width:1650px) {
-    .projects-container {
-        grid-template-columns: 1fr;
-    }
+.project-text-container a:visited {
+    color: #E1C931;
 }

@@ -11,9 +11,13 @@ const Projects = () => {
       <div className='projects-container'>
         {projects_data.map((work, index) => {
           return (
-            <div className='project' key={index}>
+            <div className='project' key={index}
+              onMouseEnter={e => { e.currentTarget.querySelector('img').src = work.p_gif }}
+              onMouseLeave={e => { e.currentTarget.querySelector('img').src = work.p_img }}
+            >
               <div className='project-img-container'>
-                <img src={work.p_img} alt='' />
+                {/* TO DO: Add alt text */}
+                <img src={work.p_img} alt=''/>
               </div>
               <div className='project-text-container'>
                 <h2>{work.p_name}</h2>
